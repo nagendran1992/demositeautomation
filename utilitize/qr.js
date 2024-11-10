@@ -32,5 +32,5 @@ export async function decodeQRCode(base64QRCode) {
     } catch (error) {
         console.error('Error loading the image or decoding QR code:', error);
         return null;
-    }
+    }     
 }
